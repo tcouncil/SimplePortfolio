@@ -1,0 +1,136 @@
+/* Travis Council ~ CSS Document */
+
+/* html setup's our black background with a margin */
+html{
+	margin: 3px;
+	background-color: #000000;
+}
+
+/* header with banner image */
+header{
+	text-align: center;
+	color:#2aff00;
+	font-family: Futura;
+ 	background: 
+  linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),  url(images/header.jpg);
+ 	background-size: cover;
+}
+
+h1{
+	margin: 0px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #2aff00;
+	color: #000000;
+	
+}
+h2{
+	font-family: Times, "Times New Roman", "serif";
+	letter-spacing: 2px;
+	font-weight: 100; /* narrow */
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+	
+h3{
+	color: #000000;
+	background-color: #2aff00;
+	height: 20px;
+}
+
+nav{
+	text-align: center;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+main ol li{
+	text-align: center;
+	color: #2aff00;
+	letter-spacing: 1px;
+}
+
+footer{
+	margin: 3px;
+	height: 100px;
+ 	background: 
+  linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
+  url(images/header.jpg);
+  background-size: cover;
+}
+
+main{
+	text-align: center;
+	background-color: #000000;
+	color: #d1ffc8;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+article{
+	margin: 3px;
+	color: #d1ffc8;
+	text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+strong{
+	padding: 30px;
+	font-weight: 800;
+	font-size: 20px;
+}
+
+ul li{
+	letter-spacing: 3px;
+}
+
+
+.m-container{
+	height: 360px;
+}
+
+.m-child-left{
+	width: 45%;
+    float: left;
+    padding: 3px;
+}
+
+.m-child-right{
+	width: 45%;
+    float: right;
+    padding: 3px;
+}
+
+/* Default Butons */
+.btn{
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+  	margin: 10px;
+  	padding: 6px 12px;
+  	border-radius: 3px;
+  	background-color: #000000;
+  	border: 1px solid #2aff00;
+}
+
+/* Nav Buttons */
+.btn-nav{
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+  	margin: 2px;
+  	padding: 3px 6px;
+  	border-radius: 3px;
+  	background-color: #000000;
+  	border: 1px solid #d1ffc8;
+}
+
+a:link {
+	color: #44FFE5;
+}
+a:visited {
+	color: #FF445F;
+}
+a:hover {
+	color: #8744FF;
+}
+a:active { 
+	color: #BCFF44;
+}
