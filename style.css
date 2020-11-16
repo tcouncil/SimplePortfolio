@@ -41,7 +41,7 @@ nav{
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
-main ol li{
+main ul li{
 	text-align: center;
 	color: #2aff00;
 	letter-spacing: 1px;
@@ -75,7 +75,7 @@ strong{
 	font-size: 20px;
 }
 
-ul li{
+ol li{
 	letter-spacing: 1px;
 }
 
