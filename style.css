@@ -2,7 +2,6 @@
 
 /* html setup's our black background with a margin */
 html{
-	margin: 3px;
 	background-color: #000000;
 }
 
@@ -11,8 +10,9 @@ header{
 	text-align: center;
 	color:#2aff00;
 	font-family: Futura;
- 	background: 
-  linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),  url(images/header.jpg);
+ 	background-size: cover;
+	background: 
+  linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),  url(images/footer.jpg);
  	background-size: cover;
 }
 
@@ -33,7 +33,6 @@ h2{
 h3{
 	color: #000000;
 	background-color: #2aff00;
-	height: 20px;
 }
 
 nav{
@@ -55,7 +54,7 @@ footer{
 	height: 100px;
  	background: 
   linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), 
-  url(images/header.jpg);
+  url(images/footer.jpg);
   background-size: cover;
 }
 
@@ -82,21 +81,24 @@ ol li{
 	letter-spacing: 1px;
 }
 
-
+.li-no-bullets{
+	 list-style-type: none;
+}
 .m-container{
-	height: 360px;
+	padding: 5%;
+	height: 500px;
 }
 
 .m-child-left{
-	width: 45%;
+	width: 30%;
     float: left;
-    padding: 3px;
+    padding: 5px;
 }
 
 .m-child-right{
-	width: 45%;
+	width: 60%;
     float: right;
-    padding: 3px;
+    padding: 5px;
 }
 
 /* Default Butons */
