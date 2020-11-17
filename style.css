@@ -12,7 +12,7 @@ header{
 	font-family: Futura;
  	background-size: cover;
 	background: 
-  linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),  url(images/footer.jpg);
+  linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),  url(images/header.jpg);
  	background-size: cover;
 }
 
