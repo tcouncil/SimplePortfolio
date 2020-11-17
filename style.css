@@ -82,25 +82,10 @@ ol li{
 }
 
 .li-no-bullets{
-	 list-style-type: none;
+	list-style-type: none;
 	padding: 20px;
 }
-.m-container{
-	padding: 5%;
-	height: 500px;
-A}
 
-.m-child-left{
-	width: 30%;
-    float: left;
-    padding: 5px;
-}
-
-.m-child-right{
-	width: 60%;
-    float: right;
-    padding: 5px;
-}
 
 /* Default Butons */
 .btn{
